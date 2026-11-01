@@ -5,11 +5,9 @@
 #
 #    pip-compile-multi
 #
-build==0.10.0
-    # via -r requirements/build.in
-packaging==23.1
+build==1.6.1
+    # via -r build.in
+packaging==26.3
     # via build
 pyproject-hooks==1.0.0
-    # via build
-tomli==2.0.1
     # via build
